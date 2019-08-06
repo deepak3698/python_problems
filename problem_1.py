@@ -2,16 +2,17 @@
 '''
 Problem statement 1:
 
-A new organization has decided to base their company logo on the three most common characters in the company name. Given a string ,which is the company name, your task is to find the top three most common characters in the string. If the occurrence count is the same, sort the characters in alphabetical order.
-For example, according to the conditions described above,
+A new organization has decided to base their company logo on the three most common characters in the company name.
+ Given a string ,which is the company name, your task is to find the top three most common characters in the string. If the occurrence count is the same, sort the characters in alphabetical order.
+    For example, according to the conditions described above,
     YAHOO would have its logo with the letters O, A, H
-          ##Note the below points.
+    Note the below points.                                               
         1. The application will accept company ID as a input, fetch the name from JSON file, and will return company Id, company Name and logo characters as output.
          I/P : { company Name:"YAHOO"}
+
          O/P: { company Name:"YAHOO",logoCharacters:"O,A,H"}
         2. Use any familiar as your programming language.
 Coding standards and code design should be followed and will be considered for assessment will along with logic and output.
-
 '''
 
 import json
