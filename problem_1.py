@@ -21,15 +21,16 @@ with open('myjson.json') as data_file:
     data_item = json.load(data_file)["id"]
 
 logo=[]
-
 input_val=int(input("Please Enter Company id: "))
 if(input_val==data_item['id_']):
     a=str(data_item['name'])
+    a=a.replace(' ', '')
     count=Counter(a)
     a=dict(count)
     list1=[]
     list2=[]
     list3=[]
+    print(a)
     for key,value in a.items():
         if(a[key]>1):
             list3.append(a[key])
